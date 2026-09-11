@@ -16,7 +16,7 @@ from pathlib import Path
 
 DEFAULT_REPO = "your-hf-namespace/deepsearchqa-skill-eval"
 HF_CARD_METADATA = """---
-pretty_name: MiniMax M3 DeepSearchQA Skill Eval
+pretty_name: DeepSearchQA Skill Eval
 license: mit
 language:
   - en

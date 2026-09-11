@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "minimax-m3-deepsearchqa-skill-eval",
+      "name": "deepsearchqa-skill-eval-template",
       "dependencies": {
         "@earendil-works/pi-ai": "^0.79.10",
         "@earendil-works/pi-coding-agent": "^0.79.10",

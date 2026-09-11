@@ -23,7 +23,7 @@ describe('HF artifact upload CLI', () => {
       remote: 'README.md',
       generated: 'hf_dataset_card',
     })
-    expect(plan.card_preview).toStartWith('---\npretty_name: MiniMax M3 DeepSearchQA Skill Eval')
+    expect(plan.card_preview).toStartWith('---\npretty_name: DeepSearchQA Skill Eval')
     expect(plan.card_preview).toContain('license: mit')
     expect(plan.card_preview).toContain('config_name: results')
     expect(plan.card_preview).toContain('path: results.jsonl')
