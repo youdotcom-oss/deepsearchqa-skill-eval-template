@@ -95,7 +95,8 @@ This requires `clickhouse-local` on `PATH` (set `CLICKHOUSE_LOCAL` if your binar
 | --- | --- | --- |
 | `MODEL` | generate, grade | OpenRouter model id (required) |
 | `K` | generate, grade | Trials per task (default `3`) |
-| `CONCURRENCY` | generate, grade | Parallel trials (default `3`) |
+| `CONCURRENCY` | generate, grade | Parallel trials (default `24`) |
+| `GRADE_CONCURRENCY` | grade | Parallel grading trials (overrides `CONCURRENCY`) |
 | `THINKING_LEVEL` | generate | `off`..`xhigh` (default `medium`) |
 | `LABEL` | generate | Run label (defaults to `<model>-you-web`) |
 | `JUDGE_MODEL` | grade | LLM judge id (default `deepseek/deepseek-v4-flash-0731`; keep fixed across runs for comparability) |
