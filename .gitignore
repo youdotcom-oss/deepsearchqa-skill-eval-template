@@ -1,0 +1,18 @@
+node_modules/
+.tmp/
+.ruff_cache/
+.venv/
+__pycache__/
+/clickhouse
+data/prompts.jsonl
+data/results.jsonl
+data/trajectories.jsonl
+data/graded.jsonl
+data/summary.json
+.DS_Store
+# autoresearch per-iteration artifacts (regenerable; keep config/prompt/shards)
+.auto/runs/
+.auto/iter-counter
+
+# generated analysis output (run: bun run analysis)
+analysis/README.md
