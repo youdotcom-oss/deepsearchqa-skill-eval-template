@@ -98,6 +98,9 @@ This requires `clickhouse-local` on `PATH` (set `CLICKHOUSE_LOCAL` if your binar
 | `CONCURRENCY` | generate, grade | Parallel trials (default `3`) |
 | `THINKING_LEVEL` | generate | `off`..`xhigh` (default `medium`) |
 | `LABEL` | generate | Run label (defaults to `<model>-you-web`) |
+| `JUDGE_MODEL` | grade | LLM judge id (default `deepseek/deepseek-v4-flash-0731`; keep fixed across runs for comparability) |
+| `JUDGE_FALLBACK_MODEL` | grade | Judge used if the primary judge call fails (default `qwen/qwen3.6-flash`) |
+| `JUDGE_TIMEOUT_MS` | grade | Per-judge-call timeout (default `180000`) |
 | `FORCE=1` | generate, grade | Discard prior artifacts for a clean rerun |
 | `HF_DATASET_REPO` | upload, download | Target HF dataset repo |
 | `OPENROUTER_API_KEY` | generate | Model access |
